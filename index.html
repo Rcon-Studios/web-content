@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MeBeer - Documents & Links</title>
+  <style>
+    :root{--accent:#72BBE8;--muted:#666}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;max-width:900px;margin:36px auto;padding:20px;color:#222}
+    h1{color:var(--accent);margin:0 0 8px}
+    p.lead{color:var(--muted);margin-top:0}
+    .card{background:#fff;border:1px solid #e6e6e6;padding:14px 16px;border-radius:8px;margin:14px 0;display:flex;gap:12px;align-items:flex-start}
+    .icon{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#5aa8d8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    .meta{flex:1}
+    .title{font-size:1.05rem;margin:0;color:#111}
+    .desc{margin:6px 0;color:var(--muted);font-size:0.95rem}
+    a.link{color:var(--accent);text-decoration:none;font-weight:600}
+    a.link:hover{text-decoration:underline}
+    .footer{margin-top:26px;color:#888;font-size:0.9rem;text-align:center}
+    @media (prefers-color-scheme:dark){body{background:#0b0b0b;color:#ddd} .card{background:#0f0f0f;border-color:#171717} .desc{color:#bdbdbd} .footer{color:#999}}
+  </style>
+</head>
+<body>
+  <h1>MeBeer — Documents & Links</h1>
+  <p class="lead">Quick access to the app description, privacy policy, and account/data management instructions for store listings or support.</p>
+
+  <div class="card">
+    <div class="icon">A</div>
+    <div class="meta">
+      <p class="title"><a class="link" href="full_description.txt">Full Description</a></p>
+      <p class="desc">A complete app description for store listings: features, social & gamification details, and privacy assurance.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="icon">S</div>
+    <div class="meta">
+      <p class="title"><a class="link" href="short_description.txt">Short Description</a></p>
+      <p class="desc">One-line promotional blurb suitable for quick store summaries and marketing snippets.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="icon">P</div>
+    <div class="meta">
+      <p class="title"><a class="link" href="privacy_policy_print.html">Privacy Policy (print)</a></p>
+      <p class="desc">Formatted privacy policy ready for printing or hosting; explains data collection, rights, and retention.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="icon">D</div>
+    <div class="meta">
+      <p class="title"><a class="link" href="account_data_management.html">Account & Data Management</a></p>
+      <p class="desc">Step-by-step instructions for requesting data, deleting accounts, and contacting support (GDPR/CCPA info).</p>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 MeBeer • For hosting on GitHub Pages or Google Sites</div>
+</body>
+</html>
